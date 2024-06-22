@@ -9,3 +9,5 @@ True e False
 
 '''
 
+print(True)
+print(False)
