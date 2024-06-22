@@ -8,4 +8,4 @@ utilizando a classe str()
 
 # exemplos válidos de strings ( observe as aspas).
 
-"python", 'python', """python""", '''python'''
+print("python", 'python', """python""", '''python''', "p")
