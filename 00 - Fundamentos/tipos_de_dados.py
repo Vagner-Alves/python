@@ -1,4 +1,4 @@
-#Tipos servem para definir as caracteristicas e comportamentos de um valor (Objeto) para o interpretador / compilador. 
+# Tipos servem para definir as caracteristicas e comportamentos de um valor (Objeto) para o interpretador / compilador. 
 # por exemplo, com o tipo int() é possível realizar operações matemáticas.
 # também irá informar ao interpretador (python) o quanto de memória será consumida para armazenalo.
 
