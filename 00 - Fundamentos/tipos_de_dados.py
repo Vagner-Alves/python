@@ -12,5 +12,6 @@ set(), frozenset()                  # Coleção
 bool()                              # Booleano ( verdadeiro ou falso)
 bytes(), bytearray(), memoryview()  # Binário
 
+# IMPORTANTE: esse código ao ser executado retornará um erro, pois algumas das classes acima precisam de parametros
 
 
