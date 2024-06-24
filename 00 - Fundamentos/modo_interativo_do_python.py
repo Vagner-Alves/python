@@ -13,7 +13,11 @@ Função DIR()
     exemplo: dir(100)
 
 Função HELP()
-    
+    Invoca o sistema de ajuda integrado da linguagem python. Sendo possível fazer buscas em modo interativo ou informar por
+    parametro qual o modulo, função, classe, método, ou variável.
+    exemplo: help() , help(100)
+
+
 
 '''
 
