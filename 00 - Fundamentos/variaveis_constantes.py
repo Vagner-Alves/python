@@ -30,4 +30,3 @@ CAMINHO_PASTA = '/home/documents/meucurso_python'
 DEBUG = True
 ESTADOS_DO_BRASIL = 'PE','SP','RJ'
 
-
