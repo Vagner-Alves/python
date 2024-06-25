@@ -10,6 +10,7 @@ ao ínves de escrever "aumentoSalario" ( cammel case) em python o recomendado é
 não encurtar nomes de variáveis ( algo que fiz bastante no passado) sempre ser o mais explicíto possível!
 exemplo, uma varável para armazenar o valor da data de aniversário:
  "data_nasc", "nasci_d", "dt" não são bons nomes o correto é "data_aniversario"!
+ essa abordagem ajuda na legibilidade do código, especialmente se for necessário revisita-lo depois de muito tempo.
 
 para indicar ( ao programador) que o valor da variável não deve ser alterado, exemplo, o caminho de um arquivo,
 utilizamos nomes com letras maiúsculas.
