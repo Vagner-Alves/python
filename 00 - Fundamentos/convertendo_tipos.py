@@ -16,3 +16,8 @@ print(PRECO) # o interpretador do python vai identificar automáticamente.
 print(float(PRECO))
 print(int(IDADE))
 
+print(int(1.89))
+
+print(float('10.80'))
+
+print(type(str(10)))
