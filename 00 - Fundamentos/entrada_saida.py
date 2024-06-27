@@ -19,3 +19,15 @@ numero_racional = float(input("Digite qualquer número racional: "))
     respectivamente. Todos os Objetos são convertidos para String, separados por sep e terminados por end.
     A string final é exibida na tela para o usuário.
 '''
+
+print(teclado)
+print(numero_inteiro)
+print(numero_racional)
+
+nome = "vagner"
+sobrenome = "Alves"
+
+print(nome, sobrenome)
+print(nome, sobrenome, end="..\n")
+print(nome, sobrenome, sep="-")
+
