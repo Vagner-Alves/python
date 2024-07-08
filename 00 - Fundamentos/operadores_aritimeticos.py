@@ -22,3 +22,12 @@ print(numero_1  // numero_2) # divisão inteira
 print(numero_1  %  numero_2) # Módulo
 print(numero_1  ** numero_2) # exponenciação
 
+
+# qual o valor de X , 10 ou 0 ?
+
+X = 10 - 5 * 2
+print(X) # zero
+
+# utilizando a ordem de operação podemos mudar o resultado da equação
+X = ( 10 - 5 ) * 2
+print(X) # dez
