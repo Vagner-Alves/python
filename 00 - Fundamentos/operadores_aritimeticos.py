@@ -31,3 +31,6 @@ print(X) # zero
 # utilizando a ordem de operação podemos mudar o resultado da equação
 X = ( 10 - 5 ) * 2
 print(X) # dez
+
+Y = (230 - 40) * 2 + (2 ** 6 )
+print(Y)
