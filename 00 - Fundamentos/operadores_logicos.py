@@ -5,6 +5,12 @@ uma expressão lógica. Quando um operador de comparação é utilizado, o resul
 dessa forma podemos combinar operadores de comparação com os lógicos,
 exemplo:
     comparação + lógico + comparação ... etc
+
+AND, OR, NOT
 '''
+
+saldo_conta = 1200
+saque_conta = 250
+limite_saque = 500
 
 
