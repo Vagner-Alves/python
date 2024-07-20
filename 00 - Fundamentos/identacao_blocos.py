@@ -8,8 +8,14 @@ def sacar( valor: float):
 
     if (saldo >= valor):
         print(f" R${valor} sacado.")
-        print(f"R${saldo - valor} disponível")
+        print(f" R${saldo - valor} disponível")
 
+    print('Obrigado volte sempre')
 #fim do bloco    
+
+def depositar(valor:float):
+    saldo = 1800
+    saldo += valor
+
 
 sacar(200)
