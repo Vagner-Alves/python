@@ -9,6 +9,10 @@ items_lista = [
 
 saques_conta = [49.9, 100.00]
 
+nome_curso = "formação python developer"
+
+print("developer" in nome_curso)
+
 print("maça" in items_lista)
 print("banana" not in items_lista)
 
