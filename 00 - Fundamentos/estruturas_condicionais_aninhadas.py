@@ -1,5 +1,6 @@
 conta_normal = True
 conta_universitaria = False
+conta_especial = False
 
 saldo = 3000
 saque = 2000
@@ -21,3 +22,6 @@ elif conta_universitaria:
         print("Retire seu dinheiro no caixa.")
     else:
         print("Não há dinheiro o suficiente na conta.")
+
+elif conta_especial:
+    print("Conta especial selecionada.")
