@@ -16,7 +16,7 @@ texto = str(input("Digite qualquer palavra ou texto: "))
 
 for letras in texto:
     if letras.upper() in VOGAIS:
-        print(letras)
+        print(letras, end=" ")
 
 
 
