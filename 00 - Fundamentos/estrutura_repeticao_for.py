@@ -18,6 +18,8 @@ for letras in texto:
     if letras.upper() in VOGAIS:
         print(letras, end=" ")
 
-
+else:
+    print()
+    print("Executa no Final do Laço")
 
 
