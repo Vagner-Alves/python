@@ -11,6 +11,12 @@ Faz sentido usar o for quando sabemos o número exato de vezes que nosso bloco d
 ser executado, ou quando queremos percorrer um objeto iteravél.
 '''
 
+VOGAIS = "AEIOU"
+texto = str(input("Digite qualquer palavra ou texto: "))
+
+for letras in texto:
+    if letras.upper() in VOGAIS:
+        print(letras)
 
 
 
