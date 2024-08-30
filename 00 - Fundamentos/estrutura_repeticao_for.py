@@ -5,5 +5,12 @@ ser executado, ou quando queremos percorrer um objeto iteravél.
 '''
 
 texto = str(input("Digite qualquer texto: "))
-VOGAIS = 'aeiou'
+VOGAIS = 'AEIOU'
+
+for letras in texto:
+    if letras.upper() in VOGAIS:
+        print(letras, end=" ")
+
+print()
+
 
