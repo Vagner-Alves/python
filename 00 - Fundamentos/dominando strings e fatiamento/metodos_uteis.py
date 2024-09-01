@@ -1,0 +1,5 @@
+'''
+METÓDOS UTEIS DA CLASSE STRING
+
+
+'''
