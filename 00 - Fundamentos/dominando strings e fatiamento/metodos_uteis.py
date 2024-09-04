@@ -9,7 +9,8 @@ Em algumas linguagens manipular sequencias de caracteres não é um trabalho tri
 NOME_CURSO = "python"
 curso = "   python     "
 
-# Maiuscula, minuscula e Titulo
+print(' ')
+print( 'Maiuscula, minuscula e Titulo' )
 
 print(NOME_CURSO.upper())                # Transforma os caracteres em maiusculos
 
@@ -17,9 +18,16 @@ print(NOME_CURSO.lower())                # Transforma os caracteres em minusculo
 
 print(NOME_CURSO.title())                # Transforma a string em um titulo ( apenas primeira letra maiuscula )
 
-print(" ")
-# Elimiando espaços em branco
+
+print(' ')
+print( 'Eliminando espaços em branco' )
 print(curso)
 print(curso.lstrip())                # elimina os espaços em branco a esquerda
 print(curso.rstrip())                # elimina os espaços em branco a direita
 print(curso.strip())                 # elimina os espaços em ambos os lados
+
+print(' ')
+print( 'Junções e centralizações' )
+
+print(curso.center(10, "#"))
+print("+".join(curso))
