@@ -1,0 +1,5 @@
+'''
+FATIAMENTO DE STRINGS
+
+
+'''
