@@ -7,7 +7,7 @@ Em algumas linguagens manipular sequencias de caracteres não é um trabalho tri
 '''
 
 NOME_CURSO = "python"
-curso = "   python     "
+CURSO = "   python     "
 
 print(' ')
 print( 'Maiuscula, minuscula e Titulo' )
@@ -21,13 +21,13 @@ print(NOME_CURSO.title())                # Transforma a string em um titulo ( ap
 
 print(' ')
 print( 'Eliminando espaços em branco' )
-print(curso)
-print(curso.lstrip())                # elimina os espaços em branco a esquerda
-print(curso.rstrip())                # elimina os espaços em branco a direita
-print(curso.strip())                 # elimina os espaços em ambos os lados
+print(CURSO)
+print(CURSO.lstrip())                # elimina os espaços em branco a esquerda
+print(CURSO.rstrip())                # elimina os espaços em branco a direita
+print(CURSO.strip())                 # elimina os espaços em ambos os lados
 
 print(' ')
 print( 'Junções e centralizações' )
 
-print(curso.center(10, "#"))
-print("+".join(curso))
+print(CURSO.center(10, "#"))
+print("+".join(CURSO))
