@@ -6,9 +6,9 @@ Elas podem ocupar várias linhas de código, e todos os espaços em branco são 
 
 NOME = "Vagner Alves"
 MENSAGEM = f'''
-    Olá, meu nome é {NOME} e estou aprendendo python!
-        - no curso da dio!
-                - e softex
+    Olá, meu nome é { NOME } e estou aprendendo python!
+        - estudo no ifpe
+                -  e aspirante a devops!
 
 '''
 
