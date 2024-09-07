@@ -13,3 +13,18 @@ MENSAGEM = f'''
 '''
 
 print(MENSAGEM)
+
+
+print("""
+
+    ============= MENU =================
+       - sacar dinheiro
+       - depositar dinheiro
+    - extrato da conta
+      - sair do sistema
+    
+      
+    ====================================
+
+
+""")
