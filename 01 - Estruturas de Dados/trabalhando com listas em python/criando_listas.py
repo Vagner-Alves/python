@@ -27,4 +27,5 @@ Contamos o indice de determinada sequencia apartir de zero.
 sequencias suportam indexação negativa. A contagem começa em -1
 '''
 
-print(lista_frutas[0])
+print(f'primeiro elemento da lista de frutas:    {lista_frutas[0]}')
+print(f'último elemento da lista de frutas:    {lista_frutas[-1]}') 
