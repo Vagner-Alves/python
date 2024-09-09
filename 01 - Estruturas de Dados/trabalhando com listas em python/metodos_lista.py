@@ -42,3 +42,8 @@ print(linguagens)
 
 linguagens.extend(['react','c#','springBoot'])
 print(linguagens)
+
+# descobrir a primeira ocorrencia de um objeto
+
+java = linguagens.index('java')
+print(java)
