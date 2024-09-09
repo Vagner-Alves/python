@@ -6,3 +6,7 @@ uma nova lista com base nos valores de uma lista existente (filtro) ou gerar uma
 aplicando alguma modificação nos elementos de uma lista existente.
 '''
 
+numeros = [1,18,8,2,9,56,13]
+
+numeros_pares = [numero for numero in numeros if numero % 2 == 0]
+print(numeros_pares)
