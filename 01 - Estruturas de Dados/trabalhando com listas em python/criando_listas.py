@@ -7,9 +7,10 @@ alterar seus valores após a criação.
 
 '''
 
-letras       = list("curso de python")                     # vai criar uma lista com cada caractere da string
-numeros      = range(10)                                   # vai criar uma lista com números de 0 a 10
-lista_frutas = ["maçã","banana","uva","pessego","manga"]   # vai criar uma lista com os elementos dentro dos colchetes
+letras       = list("curso de python")                     # vai criar uma lista com cada caractere da string.
+numeros      = range(10)                                   # vai criar uma lista com números de 0 a 10.
+lista_frutas = ["maçã","banana","uva","pessego","manga"]   # vai criar uma lista com os elementos dentro dos colchetes.
+carrinho_compras = ['tenis branco',120, 'tenis preto',120] # vai criar uma lista com diversos tipos de objeto ( string e integer).
 
 
 print(letras)
