@@ -7,8 +7,11 @@ alterar seus valores após a criação.
 
 '''
 
-lista_frutas = ["maçã","banana","uva","pessego","manga"]
+letras       = list("curso de python")                     # vai criar uma lista com cada caractere da string
+numeros      = range(10)                                   # vai criar uma lista com números de 0 a 10
+lista_frutas = ["maçã","banana","uva","pessego","manga"]   # vai criar uma lista com os elementos dentro dos colchetes
 
-letras = list("curso de python") # vai criar uma lista com cada caractere da string
 
 print(letras)
+print(numeros)
+print(lista_frutas)
