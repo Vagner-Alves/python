@@ -7,3 +7,8 @@ alterar seus valores após a criação.
 
 '''
 
+lista_frutas = ["maçã","banana","uva","pessego","manga"]
+
+letras = list("curso de python") # vai criar uma lista com cada caractere da string
+
+print(letras)
