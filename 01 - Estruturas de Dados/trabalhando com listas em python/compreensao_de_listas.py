@@ -12,3 +12,4 @@ numeros_pares = [numero for numero in numeros if numero % 2 == 0]
 numeros_aoquadrado = [numero ** 2 for numero in numeros]
 
 print(numeros_pares)
+print(numeros_aoquadrado)
