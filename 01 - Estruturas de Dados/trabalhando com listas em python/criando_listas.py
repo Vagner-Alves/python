@@ -23,6 +23,8 @@ ACESSO DIRETO
 
 A lista é uma sequencia, portanto podemos acessar seus dados utilizando indices.
 Contamos o indice de determinada sequencia apartir de zero.
+
+sequencias suportam indexação negativa. A contagem começa em -1
 '''
 
 print(lista_frutas[0])
