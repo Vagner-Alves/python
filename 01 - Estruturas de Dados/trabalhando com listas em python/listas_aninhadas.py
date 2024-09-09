@@ -10,4 +10,7 @@ matriz = [
     [5,   6, 'c']
 ]
 
-print(matriz)
+print(matriz[0])
+print(matriz[0][0])
+print(matriz[0][1])
+print(matriz[0][2])
