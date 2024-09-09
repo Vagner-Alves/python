@@ -4,3 +4,10 @@ listas podem armazenar todos os tipos de objeto python, portanto podemos ter lis
 Com isso podemos criar estruturas bidimensionais ( tabelas ), e acessar informando os indices de linha e coluna.
 '''
 
+matriz = [
+    [1,  'a', 2 ] ,
+    ['b', 3 , 4],
+    [5,   6, 'c']
+]
+
+print(matriz)
