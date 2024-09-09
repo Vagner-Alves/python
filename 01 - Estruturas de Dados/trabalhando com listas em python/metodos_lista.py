@@ -23,3 +23,22 @@ print(lista)
 
 nova_lista = ['maçã','uva','aveia','banana']
 lista2 = nova_lista.copy()
+print(lista2)
+
+
+# contar quantas vezes um objeto aparece na lista
+
+cores = ['vermelho','azul','verde','amarelo','rosa','roxo', 'azul']
+azul = cores.count('azul')
+
+print(azul)
+
+
+# adicionar vários elementos de uma vez ( não exclui duplicadas )
+
+linguagens = ['python','java','javascript','sql']
+
+print(linguagens)
+
+linguagens.extend(['react','c#','springBoot'])
+print(linguagens)
