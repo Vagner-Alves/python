@@ -5,10 +5,10 @@ tuplas podem armazenar todos os tipos de objeto python, portanto podemos ter tup
 com isso podemos criar estruturas bidimensionais ( tabelas ) , e acessar informando os índices de linha e coluna.
 '''
 
-lista_frutas = ("morango", "maçã", "uva", "pessego", "banana", "jaca",)
+tabela = (
+    (1,"a",2),
+    ('xx',23.18, 'random data'),
+    (89, 12, 12)
+)
 
-print(lista_frutas)
-
-paises = ("Brasil",) # sempre colocar uma virgula ao final para não confundir o compilador python.
-continentes = tuple("america do sul",) # cria uma tupla com cada caractere 
-print(continentes)
+print(tabela)
