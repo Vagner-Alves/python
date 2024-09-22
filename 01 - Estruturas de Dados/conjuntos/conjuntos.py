@@ -8,3 +8,4 @@ linguagens_programacao = set(["java","python","js","java","python"])
 
 print(conjunto_numerico)
 print(linguagens_programacao)
+
