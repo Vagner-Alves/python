@@ -22,3 +22,7 @@ print(pesquisa)
 # a forma mais comum de percorrer um dicionário é utilizando o comando for
 for chave in contatos:
     print(contatos[chave])
+
+
+for chave, valor in contatos.items():
+    print(chave, valor)
