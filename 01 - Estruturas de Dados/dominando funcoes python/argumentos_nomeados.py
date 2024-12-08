@@ -18,5 +18,5 @@ isso irá alterar a ordem dos valores, exemplo o modelo pode receber o valor da 
 
 na segunda opção não temos esse problema, porém com a desvantagem de escrever mais código.
 
-na última opção temos um dicionário como argumento, onde as chaves serão os nomes dos argumentos e os valores , valores!
+na última opção temos um dicionário como argumento, onde as chaves serão os nomes dos parametros e os valores , valores!
 '''
