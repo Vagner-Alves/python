@@ -7,11 +7,11 @@ de programação, em python uma função pode retornar mais de um valor.
 def calcular_total(numeros):
     return sum(numeros)
 
-calcular_total([1,1,3,4])
+print(calcular_total([1,1,3,4]))
 
 def retornar_antecessor_sucessor(numero):
     antecessor = numero -1
     sucessor = numero +1
     return antecessor, sucessor
 
-retornar_antecessor_sucessor(8)
+print(retornar_antecessor_sucessor(8))
