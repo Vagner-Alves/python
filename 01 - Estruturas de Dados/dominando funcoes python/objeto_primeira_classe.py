@@ -6,7 +6,6 @@ funções a variáveis, passá-las como parametro para funções, usá-las como 
 em estruturas de dados (listas, tuplas, dicionários e etc) e usar como valor
 de retorno para uma função ( closures ).
 '''
-
 def somar(numero1, numero2):
     return numero1 + numero2
 
