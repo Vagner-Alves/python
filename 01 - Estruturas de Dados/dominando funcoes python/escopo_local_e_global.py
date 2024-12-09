@@ -5,7 +5,6 @@ de ser executado. Para usar objetos globais utilizamos a palavra-chave global, q
 ao interpretador que a variável que está sendo manipulada no escopo local é global.
 essa NÃO É UMA BOA PRATICA E DEVE SER EVITADA.
 '''
-
 salario = 1880
 
 def bonus_salario(valor, lista):
