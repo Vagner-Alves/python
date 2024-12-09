@@ -11,3 +11,5 @@ def criar_carro(modelo, ano, placa, /, marca, motor, combustivel):
     print(modelo, ano, placa, marca,motor, combustivel)
 
 criar_carro("Palio azul", 1997, "123-AB", marca="fiat", motor="V8", combustivel="alcool") # forma correta
+
+criar_carro(modelo="Palio azul",  ano=1997, placa="123-AB", marca="fiat", motor="V8", combustivel="alcool") # forma incorreta
