@@ -15,7 +15,7 @@ class Bicicleta():
         self.valor = valor
     
     def buzinar(self):
-        print(self.modelo , ": som generico de bicicleta")
+        print(self.modelo , ": som genérico de bicicleta")
     
     def parar(self):
         print(self.modelo, ": parou")
