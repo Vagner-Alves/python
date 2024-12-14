@@ -6,7 +6,6 @@ Crie um programa onde joão informe: ano, modelo, cor e valor da bicicleta vendi
 Uma bicicleta pode: buzinar, parar e correr. Adicione esses comportamentos ( metódos )
 
 '''
-
 class Bicicleta():
     def __init__(self, ano, modelo, cor, valor):
         self.ano = ano
@@ -22,7 +21,6 @@ class Bicicleta():
     
     def correr(self):
         print(self.modelo, ": correu")
-
 
 bicicleta = Bicicleta(ano=2024, modelo="monark", cor="azul", valor=2100)
 bicicleta.buzinar()
