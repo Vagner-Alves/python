@@ -14,4 +14,16 @@ class Bicicleta():
         self.cor = cor
         self.valor = valor
     
+    def buzinar(self):
+        print(self.modelo , ": som generico de bicicleta")
+    
+    def parar(self):
+        print(self.modelo, ": parou")
+    
+    def correr(self):
+        print(self.modelo, ": correu")
+
+
+bicicleta = Bicicleta(ano=2024, modelo="monark", cor="azul", valor=2100)
+bicicleta.buzinar()
     
