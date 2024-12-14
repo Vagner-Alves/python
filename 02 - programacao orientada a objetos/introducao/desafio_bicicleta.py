@@ -12,7 +12,11 @@ class Bicicleta():
         self.modelo = modelo
         self.cor = cor
         self.valor = valor
-    
+
+    def __str__(self):
+        print("atributos da classe", self.__class__)
+        return f" ano: {self.ano}\n modelo: {self.modelo}\n cor: {self.cor}\n valor: {self.valor}"
+
     def buzinar(self):
         print(self.modelo , ": som genérico de bicicleta")
     
@@ -24,4 +28,5 @@ class Bicicleta():
 
 bicicleta = Bicicleta(ano=2024, modelo="monark", cor="azul", valor=2100)
 bicicleta.buzinar()
+print(bicicleta.__str__())
     
