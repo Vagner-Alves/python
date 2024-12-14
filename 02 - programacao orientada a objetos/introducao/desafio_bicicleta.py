@@ -38,5 +38,5 @@ class Bicicleta():
 bicicleta = Bicicleta(ano=2024, modelo="monark", cor="azul", valor=2100, numero_marchas=3)
 bicicleta.buzinar()
 #print(bicicleta.__str__())
-bicicleta.trocar_marcha()
+bicicleta.trocar_marcha(4)
     
