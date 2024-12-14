@@ -14,8 +14,8 @@ class Bicicleta():
         self.valor = valor
 
     def __str__(self):
-        print("atributos da classe", self.__class__)
-        return f" ano: {self.ano}\n modelo: {self.modelo}\n cor: {self.cor}\n valor: {self.valor}"
+        print("atributos da classe", self.__class__.__name__)
+        return f'\n'.join([f'{chave}: {valor}' for chave, valor in self.__dict__.items()])
 
     def buzinar(self):
         print(self.modelo , ": som genérico de bicicleta")
@@ -25,8 +25,13 @@ class Bicicleta():
     
     def correr(self):
         print(self.modelo, ": correu")
+    
+    def trocar_marcha(marcha):  # observe que o interpretador python não se importa com o nome self ele é apenas uma convenção
+        print(marcha)
+        print(marcha.modelo, "trocou de marcha")
 
 bicicleta = Bicicleta(ano=2024, modelo="monark", cor="azul", valor=2100)
 bicicleta.buzinar()
-print(bicicleta.__str__())
+#print(bicicleta.__str__())
+bicicleta.trocar_marcha()
     
