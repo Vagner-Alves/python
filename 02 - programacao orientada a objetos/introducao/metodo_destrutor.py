@@ -12,9 +12,13 @@ class Impressora():
         self.marca = marca
         self.conectividade = conectividade
     
-    def __del__(self):
+    def __del__(self):   # método destrutor da classe
         print("instancia", self.__class__.__name__, "deletada")
 
-impressora = Impressora("HP 581", "HP", "WIFI- USB")
-impressora.__del__()
+def criar_impressora():
+
+    impressora = Impressora("HP 581", "HP", "WIFI- USB")
+    print(impressora.modelo)
+
+criar_impressora()
         
