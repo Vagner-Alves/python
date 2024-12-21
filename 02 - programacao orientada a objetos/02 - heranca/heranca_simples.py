@@ -6,12 +6,12 @@ Quando uma classe filha herda apenas de uma classe pai , esse fenomeno é chamad
 class Veiculo:
     pass
 
-class Carro:
+class Carro(Veiculo):
     pass
 
-class Moticleta:
+class Moticleta(Veiculo):
     pass
 
-class Caminhao:
+class Caminhao(Veiculo):
     pass
 
