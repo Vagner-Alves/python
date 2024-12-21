@@ -1,4 +1,5 @@
 '''
+HERANÇA SIMPLES
 Quando uma classe filha herda apenas de uma classe pai , esse fenomeno é chamado de herança simples.
 '''
 
