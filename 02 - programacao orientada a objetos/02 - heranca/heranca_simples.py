@@ -10,7 +10,8 @@ class Veiculo:
         self.cor = cor
         self.numero_rodas = numero_rodas
     
-    pass
+    def ligar(self):
+        print(self.marca, 'ligando motor')
 
 class Carro(Veiculo):
     pass
@@ -23,4 +24,9 @@ class Caminhao(Veiculo):
 
 
 moto = Moticleta('XXXX','yamaha','amarela',2)
-print(moto)
+moto.ligar()
+
+carro = Carro('YYYY','Fiat', 'branco', 4)
+carro.ligar()
+
+caminhao = Caminhao('ZZZZ', 'caminhão genérico', 'verde amarelo com óculos escuro', 17)
