@@ -35,4 +35,4 @@ moto.ligar()
 carro = Carro('YYYY','Fiat', 'branco', 4)
 carro.ligar()
 
-caminhao = Caminhao('ZZZZ', 'caminhão genérico', 'verde amarelo com óculos escuro', 17)
+caminhao = Caminhao('ZZZZ', 'caminhão genérico', 'verde amarelo com óculos escuro', 17, True)
