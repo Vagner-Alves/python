@@ -20,7 +20,13 @@ class Moticleta(Veiculo):
     pass
 
 class Caminhao(Veiculo):
-    pass
+    
+    def __init__(self, placa, marca, cor, numero_rodas, carregado):
+        super().__init__(placa, marca, cor, numero_rodas)
+        self.carregado = carregado
+    
+    def estar_carregado(self):
+        print(f'{'sim' if self.carregado else 'não'}', 'está carregado.')
 
 
 moto = Moticleta('XXXX','yamaha','amarela',2)
