@@ -27,9 +27,13 @@ class Conta:
         # mesma coisa
 
         self._saldo -= valor
+    
+    def mostrar_saldo(self):
+        return self._saldo
 
 conta = Conta("1234", 100)
-
+conta.depositar(20)
+print(conta.mostrar_saldo())
 
 
 
