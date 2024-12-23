@@ -12,6 +12,11 @@ class Veiculo:
     
     def ligar(self):
         print(self.marca, 'ligando motor')
+    
+    def __str__(self):
+        print("atributos da classe", self.__class__.__name__)
+        return f'\n'.join([f'{chave}: {valor}' for chave, valor in self.__dict__.items()])
+
 
 class Carro(Veiculo):
     pass
@@ -30,9 +35,7 @@ class Caminhao(Veiculo):
 
 
 moto = Moticleta('XXXX','yamaha','amarela',2)
-moto.ligar()
-
 carro = Carro('YYYY','Fiat', 'branco', 4)
-carro.ligar()
-
 caminhao = Caminhao('ZZZZ', 'caminhão genérico', 'verde amarelo com óculos escuro', 17, True)
+
+print(moto, carro, caminhao)
