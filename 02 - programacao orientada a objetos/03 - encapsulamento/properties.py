@@ -26,5 +26,9 @@ class Foo:
         self._x = -1
 
 foo = Foo(10)
-    
+print(foo.x)
+foo.x = 10
+print(foo.x)
+del foo.x
+print(foo.x) 
 
