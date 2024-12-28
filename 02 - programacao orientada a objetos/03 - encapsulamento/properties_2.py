@@ -8,8 +8,13 @@ class Pessoa:
         self._ano_nascimento = ano_nascimento
     
     @property
-    def nome(self):
-        return self._nome
+    def idade(self):
+        _ano_atual = 2024
+        return _ano_atual  - self._ano_nascimento
     
+
+pessoa = Pessoa("Vagner alves", 1997)
+print(f"Nome: {pessoa.nome} \tIdade: {pessoa.idade}")
     
+
     
