@@ -14,7 +14,7 @@ class Pessoa:
     
 
 pessoa = Pessoa("Vagner alves", 1997)
-print(f"Nome: {pessoa.nome} \tIdade: {pessoa.idade}")
+print(f"Nome: {pessoa.__delattr__nome} \tIdade: {pessoa.idade}")
     
 
     
