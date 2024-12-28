@@ -7,5 +7,9 @@ class Pessoa:
         self._nome = nome
         self._ano_nascimento = ano_nascimento
     
+    @property
+    def nome(self):
+        return self._nome
+    
     
     
