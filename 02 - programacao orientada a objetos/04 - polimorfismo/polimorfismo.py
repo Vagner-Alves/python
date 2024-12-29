@@ -11,4 +11,18 @@ classe pai. Isso é particurlamente útil nos casos em que o método herdado
 da classe pai não se encaixa perfeitamente na classe filha.
 '''
 
+class Passaro:
+    def __init__(self):
+        pass
+
+    def voar(self):
+        print("voando")
+
+class Pardal(Passaro):
+    def voar(self):
+        return super().voar()
+
+class Avestruz(Passaro):
+    def voar(self):
+        print("avestruz não consegue voar...")
 
