@@ -26,3 +26,13 @@ class Avestruz(Passaro):
     def voar(self):
         print("avestruz não consegue voar...")
 
+class Aviao(Passaro):
+    def voar(self):
+        print("avião decolando...")
+
+def plano_voo(obj):
+    obj.voar()
+
+plano_voo(Pardal())
+plano_voo(Avestruz())
+plano_voo(Aviao())
