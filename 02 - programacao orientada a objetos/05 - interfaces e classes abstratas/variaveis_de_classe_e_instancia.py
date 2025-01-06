@@ -26,3 +26,8 @@ aluno = Estudante("Vagner", "20222ADS-PM0202")
 aluno2 = Estudante("larissa", "20222ADS-PM0303")
 
 mostrar_objetos(aluno, aluno2)
+
+Estudante.escola = "Instituto  Federal de Pernambuco"
+
+aluno3 = Estudante("Outro aluno", "20222ADS-PM0404")
+mostrar_objetos(aluno, aluno2, aluno3)
