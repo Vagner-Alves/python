@@ -17,8 +17,12 @@ class Estudante:
     def __str__(self):
         return f"nome: {self.nome}  numero: {self.numero_matricula} - {self.escola}"
 
+
+def mostrar_objetos(*objetos):
+    for objs in objetos:
+        print(objs)
+
 aluno = Estudante("Vagner", "20222ADS-PM0202")
 aluno2 = Estudante("larissa", "20222ADS-PM0303")
 
-print(aluno)
-print(aluno)
+mostrar_objetos(aluno, aluno2)
