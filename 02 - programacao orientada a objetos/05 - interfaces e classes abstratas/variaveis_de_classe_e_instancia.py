@@ -12,9 +12,13 @@ class Estudante:
 
     def __init__(self, nome, numero_matricula):
         self.nome =  nome
-        self.numero = numero_matricula
+        self.numero_matricula = numero_matricula
     
-    def __str__():
+    def __str__(self):
         return f"nome: {self.nome}  numero: {self.numero_matricula} - {self.escola}"
 
-vagner = Estudante("Vagner", "20222ADS-PM0202")
+aluno = Estudante("Vagner", "20222ADS-PM0202")
+aluno2 = Estudante("larissa", "20222ADS-PM0303")
+
+print(aluno)
+print(aluno)
