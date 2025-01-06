@@ -1,7 +1,7 @@
-from abc import ABC, abstractclassmethod, abstractproperty
+from abc import ABC, abstractmethod, property
 
 class ControleRemoto(ABC):
-    
+    @abstractmethod
     def ligar(self):
         pass
     def desligar(self):
@@ -10,15 +10,15 @@ class ControleRemoto(ABC):
 
 class ControleTV(ControleRemoto):
     def ligar(self):
-        pass
+        print("Ligando a TV")
 
     def desligar(self):
-        return
+        print("Desligando a TV")
     
 class ControleArCondicionado(ControleRemoto):
     def ligar(self):
         pass
-    
+
     def desligar(self):
         pass
     
