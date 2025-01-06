@@ -25,7 +25,17 @@ geralmente usamos o método de classe para criar métodos de fábrica.
 geralmente usamos métodos estáticos para criar funções utilitárias.
 '''
 
+class Pessoa:
+    def __init__(self,nome=None, idade=None):
+        self.nome = nome
+        self.idade = idade
+    
+    def criar_apartir_data_nascimento(ano, mes, dia, nome):
+        idade = 2025 - ano
+        return Pessoa(nome, idade)
 
+pessoa = Pessoa("Vagner Alves", 28)
+print(pessoa.nome, pessoa.idade)
 
-
-
+pessoa2 = Pessoa.criar_apartir_data_nascimento(1997, 1, 5, "vagner Alves")
+print(pessoa2)
