@@ -10,11 +10,11 @@ são compartilhados entre os objetos.
 class Estudante:
     escola = "IFPE"
 
-    def __init__(self, nome, numero):
+    def __init__(self, nome, numero_matricula):
         self.nome =  nome
-        self.numero = numero
+        self.numero = numero_matricula
     
     def __str__():
-        return f"nome: {self.nome}  numero: {self.numero}"
+        return f"nome: {self.nome}  numero: {self.numero_matricula} - {self.escola}"
 
 vagner = Estudante("Vagner", "20222ADS-PM0202")
