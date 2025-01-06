@@ -30,12 +30,21 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
     
-    def criar_apartir_data_nascimento(ano, mes, dia, nome):
+    @classmethod
+    def criar_apartir_data_nascimento(cls,ano, mes, dia, nome):
+        # cls é uma referencia para  a classe
         idade = 2025 - ano
-        return Pessoa(nome, idade)
+        return cls(nome, idade)
 
-pessoa = Pessoa("Vagner Alves", 28)
-print(pessoa.nome, pessoa.idade)
+    @staticmethod
+    def maior_idade(idade):
+        return idade >= 18
+
+#pessoa = Pessoa("Vagner Alves", 28)
+#print(pessoa.nome, pessoa.idade)
 
 pessoa2 = Pessoa.criar_apartir_data_nascimento(1997, 1, 5, "vagner Alves")
-print(pessoa2)
+print(pessoa2.nome, pessoa2.idade)
+
+print(Pessoa.maior_idade(18))
+print(Pessoa.maior_idade(17))
