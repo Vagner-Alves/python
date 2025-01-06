@@ -19,8 +19,13 @@ enquanto um método estático não.
 um método de classe pode acessar ou modificar o estado da classe enquanto um método estático não pode
 acessá-lo ou modificá-lo
 
+quando utilizar cada um deles ?
 
+geralmente usamos o método de classe para criar métodos de fábrica.
+geralmente usamos métodos estáticos para criar funções utilitárias.
 '''
+
+
 
 
 
