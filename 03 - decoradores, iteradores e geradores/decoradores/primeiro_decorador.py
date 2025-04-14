@@ -6,8 +6,9 @@ def meu_decorador(funcao):
     
     return envelope
 
+@meu_decorador
 def ola_mundo():
     print("Olá mundo!")
 
-ola_mundo = meu_decorador(ola_mundo)
+
 ola_mundo()
