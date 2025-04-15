@@ -11,3 +11,14 @@ class Galaxia:
             return planeta
         else:
             raise StopIteration
+
+planetas = ["Mercurio","Venus","Terra","Marte","Júpiter","Saturno","Netuno","Urano"]
+
+galaxia = Galaxia(planetas)
+
+def explorar_planetas(planetas):
+    for planeta in planetas:
+        yield planeta
+
+for planeta in explorar_planetas(planetas):
+    print(f"visitando o planeta {planetas}")
