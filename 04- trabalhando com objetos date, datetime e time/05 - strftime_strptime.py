@@ -21,7 +21,6 @@ mascara_eng = "%Y-%m-%d %H:%M"
 
 '''para evitar o erro
 AttributeError: module 'datetime' has no attribute 'strptime
-
 '''
 from datetime import datetime
 data_convertida = datetime.strptime(data_hora_formatada, mascara_eng)
