@@ -9,7 +9,11 @@ south_america_recife = datetime.now(pytz.timezone("America/Recife"))
 south_america_sao_paulo = datetime.now(pytz.timezone("America/Sao_paulo"))
 south_america_noronha = datetime.now(pytz.timezone("America/Noronha"))
 # Europa
-fuso_horario_europa = datetime.now(pytz.timezone("Europe/Oslo"))
+europe_paris = datetime.now(pytz.timezone("Europe/Paris"))
+europe_madrid = datetime.now(pytz.timezone("Europe/Madrid"))
+europe_rome = datetime.now(pytz.timezone("Europe/Rome"))
+europe_athens = datetime.now(pytz.timezone("Europe/Athens"))
+europe_lisbon = datetime.now(pytz.timezone("Europe/Lisbon"))
 
 # America do Norte
 north_america_vancouver = datetime.now(pytz.timezone("America/Vancouver"))
