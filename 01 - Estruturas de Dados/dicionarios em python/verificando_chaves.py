@@ -2,8 +2,6 @@
 para evitar numerosas linhas de código, laços de repetição para verificar a existencia de chaves
 usamos o operador associação IN
 '''
-
-
 contatos = {
     "vagneralves997@gmail.com": {"nome":"vagner", "telefone":"(xx) xxxx-xxxx"},
     "alguem@email.com": {"nome":"alguém", "telefone":"33 3333-3333"},
