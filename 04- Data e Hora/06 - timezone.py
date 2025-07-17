@@ -42,7 +42,6 @@ oceania_tahiti = datetime.now(pytz.timezone("Pacific/Tahiti"))
 # Antartica
 antarctica_south_pole = datetime.now(pytz.timezone("Antarctica/South_Pole"))
 
-
 print("America do Sul ")
 print(f"Recife:  {south_america_recife}")
 print(f"Noronha: {south_america_noronha}")
