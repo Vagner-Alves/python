@@ -1,1 +1,1 @@
-escrevendo textos  com python!
+escrevendo com python
