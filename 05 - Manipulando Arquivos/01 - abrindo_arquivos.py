@@ -7,3 +7,4 @@ arquivo_texto = open("texto.txt")
 
 for texto in arquivo_texto.readlines():
     print(texto)
+arquivo_texto.close() # importante fechar para economizar recursos
