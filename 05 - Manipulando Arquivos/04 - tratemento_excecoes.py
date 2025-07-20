@@ -10,4 +10,20 @@ em disco, entre outros.
 
 UnicoDecodeError: quando ocorre um erro ao tentar decodificar os dados de um arquivo de texto usando uma codificação inadequada. 
 '''
+from pathlib import Path
 
+try:
+    arquivo = open("meu_arquivo.py")
+except FileNotFoundError as exc:
+    print("Arquivo não encontrado")
+    print(exc)
+except IsADirectoryError as exc:
+    print(f"não foi possível abrir o arquivo: {exc}")
+except IOError as exc:
+    print(f"Erro ao abrir o arquivo: {exc}")
+except Exception as exc:
+    print(f"Algum problema ocorreu ao tentar abrir o arquivo: {exc}")
+
+ROOT_PATH = Path(__file__).parent
+
+arquivo = open(ROOT_PATH / "novo-diretorio")
